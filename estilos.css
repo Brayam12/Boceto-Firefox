@@ -1,0 +1,230 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+}
+
+.centrar{
+  text-align: center;
+}
+
+.ancho{
+  width: 1200px;
+  margin: auto;
+  /* border: 1px solid red; */
+}
+
+.margen{
+  padding: 15px;
+}
+
+/* Div cabecera */
+.link{
+   display: inline-block;
+  width: 10%;
+  vertical-align: middle;
+   /* border: 2px black solid; */
+}
+
+.link img{
+width: 100%;
+}
+
+.menu{
+  display: inline-block;
+  width: 50%;
+  vertical-align: middle;
+  /* border: 2px black solid; */
+}
+
+.menu a{
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.descarga{
+  display: inline-block;
+  width: 30%;
+  vertical-align: middle;
+  text-align: right;
+   /* border: 2px black solid; */
+  margin-left: 60px;
+}
+.descarga a{
+  padding: 10px 30px;
+  border-radius: 15px;
+  color:blue;
+  border: blue solid;
+  text-decoration: none;
+}
+
+/* hr */
+.linea{
+  width: 1200px;
+  height: 5px;
+  background-color: rgb(175, 171, 171);
+}
+
+/* Div Logo */
+.logo img{
+width: 100px;
+}
+
+/* Div firefox */
+
+.rapido{
+  width: 50%;
+  display: inline-block;
+  /* border: 2px black solid; */
+  vertical-align: top;
+}
+
+.rapido a{
+  padding: 12px 30px;
+  border-radius: 10px;
+  color:blue;
+  text-decoration: none;
+  background-color: blue;
+  color:white;
+
+}
+
+.pequeño{
+  margin-top: 15px;
+  font-size: 12px;
+  color: gray;
+}
+
+.contenedor_pantalla{
+  display: inline-block;
+  width: 40%;
+  /* border: 2px black solid; */
+  vertical-align: top;
+  margin-left: 50px ;
+}
+
+.contenedor_pantalla img{
+  width: 100%;
+}
+
+/* Div dinosaurio */
+.contenedor_dinosaurio{
+  background-color: #f5f2f2;
+}
+
+.dinosaurio{
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.dinosaurio img{
+  width: 100%;
+}
+
+.texto{
+  width: 20%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.texto h2{
+  font-size: 30px;
+  line-height: 1.2;
+}
+
+
+/* Div de la info */
+
+.contenedor_info li{
+text-decoration: underline;
+color:blue;
+font-weight: bold;
+}
+
+.info_uno{
+  display: inline-block;
+  width: 45%;
+  margin-left: 30px;
+}
+
+.info_dos{
+  display: inline-block;
+  width: 50%;
+  margin-left: 10px;
+}
+
+/* Div de las tarjetas */
+.tarjeta {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+  padding: 50px 25px 25px 40px;
+  color: #333;
+  margin-right: 30px;
+}
+
+.tarjeta img{
+  width:50%;
+}
+
+
+/* Div formulario */
+
+.imagen{
+  display: inline-block;
+  width: 40%;
+  vertical-align: top;
+  text-align: right;
+}
+imagen img{
+  width: 100%;
+}
+
+.formulario{
+  display: inline-block;
+  width: 45%;
+  vertical-align: top;
+}
+.formulario h2{
+font-weight: 25px;
+}
+
+.formulario input {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 10px;
+      box-sizing: border-box;
+      margin-bottom: 15px;
+      border:gray solid;
+    }
+
+    .formulario label{
+      font-weight: bold;
+    }
+
+    .formulario button {
+      width: 100%;
+      padding: 12px;
+      background-color: black;
+      color: white;
+      font-weight: bold;
+      border-radius: 10px;
+      cursor: pointer;
+      margin-bottom: 10px;
+    }
+
+    .formulario p{
+      margin-left: 50px;
+      font-weight: bold;
+    }
